@@ -80,7 +80,7 @@ function App() {
   }, [])
 
   useEffect(() => {
-    initializeData()
+    document.title = "Car Management System | FN37"
   }, [])
 
   useEffect(() => {
