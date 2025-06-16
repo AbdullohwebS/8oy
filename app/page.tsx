@@ -299,13 +299,13 @@ export default function HomePage() {
       <div className="container mx-auto px-4 py-8">
         <div className="mb-8">
           <div className="flex items-center justify-between mb-4">
-            <h1 className="text-3xl font-bold text-gray-900 dark:text-white">Json App Cars</h1>
+            <h1 className="text-3xl font-bold text-gray-900 dark:text-white">Json Yangiliklari</h1>
             <div className="flex items-center gap-4">
               {isAuthenticated && (
                 <div className="flex items-center gap-2">
                   <div className="flex items-center gap-2 px-3 py-1 bg-green-100 text-green-800 rounded-full text-sm">
                     <User className="w-4 h-4" />
-                    <span>fn37-best</span>
+                    <span>fn37-best?</span>
                   </div>
                   <Button variant="outline" size="sm" onClick={handleLogout}>
                     <LogOut className="w-4 h-4 mr-1" />
